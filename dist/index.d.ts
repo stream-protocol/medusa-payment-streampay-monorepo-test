@@ -1,0 +1,1 @@
+export { StreamPayPaymentProcessorConfig as PluginOptions } from "./services/streampay-payment-processor";

@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "file": "streampay.js",  // The name of the generated file
+  "sourceRoot": "https://github.com/stream-protocol/medusa-payment-streampay",        // Path to the source root
+  "sources": ["../../src/lib/streampay.ts"],  // Paths to the original TypeScript source files
+  "names": [],             // Array of symbol names used in the generated code
+  "mappings": ""           // Encoded mapping information
+}
