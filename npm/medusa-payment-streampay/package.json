@@ -1,0 +1,59 @@
+{
+  "name": "medusa-payment-streampay",
+  "version": "1.0.0",  // Updated version
+  "description": "Stream Payment provider for Medusa e-Commerce",
+  "main": "dist/index.js",
+  "repository": "https://github.com/stream-protocol/medusa-payment-streampay",
+  "author": "Stream Protocol <contact@streamprotocol.org>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "@medusajs/medusa": "^1.15.0"  // Updated version
+  },
+  "dependencies": {
+    "@medusajs/utils": "^1.9.7"
+  },
+  "devDependencies": {
+    "@medusajs/medusa": "^1.15.0", 
+    "@solana/wallet-adapter-react": "^0.15.34",
+    "@solana/web3.js": "^1.78.4",
+    "@solana/web3.js": "^1.78.4",    // Updated version
+    "@types/jest": "^29.5.0",         // Updated version
+    "@types/node": "^20.5.7",       // Updated version
+    "cross-env": "^7.0.3",            // Updated version
+    "eslint": "^8.4.1",               // Updated version
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "^9.0.0", // Updated version
+    "eslint-plugin-import": "^2.28.1",  // Updated version
+    "eslint-plugin-jest": "^27.2.3",   // Updated version
+    "jest": "^29.6.4",                 // Updated version
+    "prettier": "^3.0.2",              // Updated version
+    "rimraf": "^5.0.1",                // Updated version
+    "ts-jest": "^29.1.1",
+    "Solana-encryption": "^1.0.9",
+    "circle-client-node": "^3.1.1",           // Updated version
+    "typescript": "^5.2.2"            // Updated version
+  },
+  "keywords": [
+    "medusa",
+    "medusa-plugin",
+    "medusa-plugin-payment",
+    "medusa-payment-streampay",
+    "medusa-streampay",
+    "streampay"
+  ],
+  "scripts": {
+    "build": "rimraf dist && tsc -p tsconfig.build.json",
+    "dev": "tsc -p tsconfig.build.json --watch",
+    "test:watch": "jest --watch",
+    "test": "jest --ci --coverage",
+    "lint": "eslint --ignore-path .gitignore . && prettier --check .",
+    "lint:fix": "eslint --ignore-path .gitignore . --fix && prettier --write ."
+  },
+  "bugs": {
+    "url": "https://github.com/stream-protocol/medusa-payment-streampay/issues"
+  },
+  "homepage": "https://github.com/stream-protocol/medusa-payment-streampay#readme"
+}
