@@ -5,9 +5,16 @@
 
 This repository contains the **Stream**Payments provider for Medusa e-commerce stores. Medusa is an open-source headless commerce engine that allows you to build flexible and customizable e-commerce experiences. This **Stream**Payments provider integration enables Medusa stores to accept both stablecoin and cryptocurrency payments using the Solana blockchain and web3 technologies via the **Stream**Payments platform.
 
+### Prerequisites
+
+- StreamPayments Account (Merchant Portal)
+- StreamPayments Account´s secret key
+- Medusa server
+
 ### Table of Contents
 
 - [**Stream**Payments Provider for Medusa e-Commerce Stores](#streampayments-provider-for-medusa-e-commerce-stores)
+  - [Prerequisites](#prerequisites)
   - [Table of Contents](#table-of-contents)
 - [Installation](#installation)
 - [Usage](#usage)
